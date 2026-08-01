@@ -1,0 +1,15 @@
+# ESP-IDF build artifacts
+firmware/*/build/
+firmware/*/sdkconfig.old
+firmware/*/.vscode/
+firmware/*/managed_components/
+firmware/*/dependencies.lock
+
+# KiCad backups
+pcb/*.bak
+pcb/*-backups/
+pcb/fp-info-cache
+
+# OS junk
+.DS_Store
+Thumbs.db
